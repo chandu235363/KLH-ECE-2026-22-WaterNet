@@ -1,0 +1,30 @@
+# Dependencies
+**/node_modules/
+
+# Local environment files and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local PostgreSQL data directories
+/pgdata/
+/backend/pgdata/
+
+# Generated builds and test output
+**/dist/
+**/build/
+**/coverage/
+
+# Python virtual environments and caches
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+
+# Logs and local files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
